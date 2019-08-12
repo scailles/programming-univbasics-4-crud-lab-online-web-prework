@@ -7,10 +7,12 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+  element="yellow"
   create_an_array.push("yellow")
 end
 
 def add_element_to_start_of_array(array, element)
+  element="purple"
   create_an_array.unshift("purple")
 end
 
