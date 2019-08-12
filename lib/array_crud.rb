@@ -9,7 +9,7 @@ end
 def add_element_to_end_of_array(array, element)
   element=yellow
   create_an_array.push("yellow")
-  print create_an_array
+  return create_an_array
 end
 
 def add_element_to_start_of_array(array, element)
