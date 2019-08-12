@@ -8,17 +8,19 @@ end
 
 def add_element_to_end_of_array(array, element)
   element=yellow
+  do
   create_an_array.push("yellow")
   return create_an_array
 end
 
 def add_element_to_start_of_array(array, element)
+  do
   element="purple"
   create_an_array.unshift("purple")
 end
 
 def remove_element_from_end_of_array(array)
-  create_an_array.pop
+  do create_an_array.pop
   
 end
 
